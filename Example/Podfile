@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SHMsgSend_Example', :exclusive => true do
+  pod 'SHMsgSend', :path => '../'
+end
+
+target 'SHMsgSend_Tests', :exclusive => true do
+  pod 'SHMsgSend', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
