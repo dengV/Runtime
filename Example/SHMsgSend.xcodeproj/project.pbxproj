@@ -23,6 +23,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		916AAC87F1E8DC0E007FB778 /* Pods_SHMsgSend_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA29B4EF70F12BBFAAF154C0 /* Pods_SHMsgSend_Tests.framework */; };
 		A156990E31684A1214D6BB73 /* Pods_SHMsgSend_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58674BF619EFDA708220EA0 /* Pods_SHMsgSend_Example.framework */; };
+		A8131D781CBF3C9700A680F0 /* SHMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = A8131D771CBF3C9700A680F0 /* SHMsgSend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8AA673DC0411F1FA48C15360 /* Pods-SHMsgSend_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMsgSend_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHMsgSend_Tests/Pods-SHMsgSend_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93B76BFDE87B69CEC7EB359E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A8131D761CBF3C9700A680F0 /* SHMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMsgSend.h; sourceTree = "<group>"; };
+		A8131D771CBF3C9700A680F0 /* SHMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMsgSend.m; sourceTree = "<group>"; };
 		C463348CA75079597C3BDDF4 /* Pods-SHMsgSend_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMsgSend_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHMsgSend_Tests/Pods-SHMsgSend_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA29B4EF70F12BBFAAF154C0 /* Pods_SHMsgSend_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHMsgSend_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF47AD5680BFB98E6AD6235 /* Pods-SHMsgSend_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMsgSend_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHMsgSend_Example/Pods-SHMsgSend_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SHViewController.h */,
 				6003F5A6195388D20070C39A /* SHViewController.m */,
+				A8131D761CBF3C9700A680F0 /* SHMsgSend.h */,
+				A8131D771CBF3C9700A680F0 /* SHMsgSend.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -392,6 +397,7 @@
 			files = (
 				6003F59E195388D20070C39A /* SHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SHViewController.m in Sources */,
+				A8131D781CBF3C9700A680F0 /* SHMsgSend.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

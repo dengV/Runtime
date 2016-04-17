@@ -1,0 +1,6 @@
+framework module SHMsgSend {
+  umbrella header "SHMsgSend-umbrella.h"
+
+  export *
+  module * { export * }
+}
